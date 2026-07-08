@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8"> <!-- 设置网页的字符编码为UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 让网页在移动端设备上自适应屏幕宽度 -->
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>这是我的第一个网页。</p>
-    <a href = "https://github.com/hotaru214/test">点击这里访问我的GitHub仓库</a>
-    <h1>文本格式化演示</h1>
-    <p>这是<b>加粗</b>文本。</p>
-    <p>这是<i>斜体</i>文本。</p>
-    <p>这是<u>下划线</u>文本。</p>
-    <p>这是<del>删除线</del>文本。</p>
-    <p>这是<mark>高亮</mark>文本。</p>
-    <p>这里默认消除  空格   和
-        换行符。</p>
-    <pre>这里保留  空格   和
-        换行符。用到了pre标签。</pre>
-    <h2>图像演示</h2>
-    <img src="https://picsum.photos/200/200?random=1" alt="示例图像">
+  <head>
+    <meta charset="UTF-8">
+    <title>我的第一个网页</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="card">
+      <h1>你好，互联网</h1>
+      <p id="msg">这是我的第一个网页，现在它有了一点样式。</p>
+      <button onclick="changeText()">点我试试</button>
+    </div>
 
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
